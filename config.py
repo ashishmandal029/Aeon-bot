@@ -1,11 +1,11 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""  # Get this from @BotFather
-OWNER_ID = 0  # Your Telegram User ID (not username) as an integer
-TELEGRAM_API = 0  # Get this from my.telegram.org
-TELEGRAM_HASH = ""  # Get this from my.telegram.org
+BOT_TOKEN = "8258997497:AAEED5aIer9GJiHYEsYV4oCyOq0Egfjfl54"  # Get this from @BotFather
+OWNER_ID = 5728398903  # Your Telegram User ID (not username) as an integer
+TELEGRAM_API = 24871620  # Get this from my.telegram.org
+TELEGRAM_HASH = "e4195bedc71234a179a3d9ac0cad6401"  # Get this from my.telegram.org
 
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
-DATABASE_URL = ""  # MongoDB URI for storing user data and preferences
+DATABASE_URL = "mongodb+srv://ashish:ashish@cluster0.2pxqhuu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # MongoDB URI for storing user data and preferences
 
 # Heroku config for get BASE_URL automatically
 HEROKU_APP_NAME = ""
@@ -53,7 +53,7 @@ HELPER_TOKENS = ""  # Bot tokens for helper bots, separated by space. Format: "t
 HYPER_THREADS = 0  # Number of threads for hyper download (0 = auto-detect based on number of helper bots)
 
 # Command Management
-CMD_SUFFIX = ""  # Command suffix to distinguish commands, e.g. "1" would make commands like /mirror1
+CMD_SUFFIX = "2"  # Command suffix to distinguish commands, e.g. "1" would make commands like /mirror1
 WRONG_CMD_WARNINGS_ENABLED = (
     False  # Enable/disable warnings for wrong command suffixes
 )
